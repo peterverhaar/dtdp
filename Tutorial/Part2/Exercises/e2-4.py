@@ -1,16 +1,15 @@
+eu = {
+'Italy':'Rome' , 'Luxembourg':'Luxembourg' , 'Belgium':'Brussels' , 'Denmark':'Copenhagen' , 'Finland':'Helsinki' , 'France':'Paris' , 'Slovakia':'Bratislava' , 'Slovenia':'Ljubljana' , 'Germany':'Berlin' , 'Greece':'Athens' , 'Ireland':'Dublin' , 'Netherlands':'Amsterdam' , 'Portugal':'Lisbon' , 'Spain':'Madrid' , 'Sweden':'Stockholm' , 'United Kingdom':'London' , 'Cyprus':'Nicosia' , 'Lithuania':'Vilnius' , 'Czech Republic':'Prague' , 'Estonia':'Tallin' , 'Hungary':'Budapest' , 'Latvia':'Riga' , 'Malta':'Valetta' , 'Austria':'Vienna' , 'Poland':'Warsaw' , 'Croatia':'Zagreb' ,'Romania':'Bucharest' , 'Bulgaria':'Sofia' }
+
+print( 'The EU currently has {} member countries:'.format( len(eu) ) )
+
+for country in sorted(eu):
+    print( country )
+
+print('\n')
+
+sorted = sorted( eu , key=lambda x: eu[x])
 
 
-data = dict()
-
-data["firstName"] = 'Louis'
-data["lastName"] = 'Elsevier'
-data["profession"] = 'printer'
-data["yob"] = 1540
-data["yod"] = 1617
-data["pob"] = 'Leuven'
-data["pod"] = 'Leiden'
-
-sentence = '{} {} was a {}. '.format( data['firstName'] , data['lastName'] , data['profession']  )
-sentence += 'He was born in {} in {} and died in {} in {}.'.format( data["yob"] , data["pob"] , data["yod"] ,data["pod"]  )
-
-print( sentence )
+for country in sorted:
+    print( 'The capital of {} is {}.'.format( country , eu[country] ) )

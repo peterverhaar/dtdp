@@ -1,9 +1,16 @@
 
-sonnet = open( 'sonnet116.txt' )
 
-lineNr = 0
+data = dict()
 
+data["firstName"] = 'Louis'
+data["lastName"] = 'Elsevier'
+data["profession"] = 'printer'
+data["yob"] = 1540
+data["yod"] = 1617
+data["pob"] = 'Leuven'
+data["pod"] = 'Leiden'
 
-for line in sonnet:
-    lineNr += 1
-    print('{}.\t{}'.format( lineNr , line ) )
+sentence = '{} {} was a {}. '.format( data['firstName'] , data['lastName'] , data['profession']  )
+sentence += 'He was born in {} in {} and died in {} in {}.'.format( data["yob"] , data["pob"] , data["yod"] ,data["pod"]  )
+
+print( sentence )

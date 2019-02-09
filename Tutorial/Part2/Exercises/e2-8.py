@@ -1,18 +1,18 @@
 
-sonnet = open( 'sonnet116.txt' )
-out = open( 'data.txt' , 'w' )
+sonnet = open( 'prufrock.txt' )
+out = open( 'data2.txt' , 'w' )
 
 totalNrCharacters = 0
 lineNr = 0
-## variable max is the line with the highest number of characters
 max = ''
 
 
 for line in sonnet:
-    totalNrCharacters += len(line)
-    lineNr += 1
-    if len(line) > len(max):
-        max = line.strip()
+    if len(line.strip()) > 0:
+        totalNrCharacters += len(line)
+        lineNr += 1
+        if len(line) > len(max):
+            max = line.strip()
 
 out.write( 'Total number of characters: {}\n'.format( totalNrCharacters ) )
 out.write( 'Number of lines: {}\n'.format( lineNr ) )
