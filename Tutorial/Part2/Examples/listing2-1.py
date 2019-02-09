@@ -1,16 +1,23 @@
-week = [ "Monday" , "Tuesday" , "Wednesday" , "Thursday" ,"Friday" ]
+week = [ "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" ]
 
 print( week[3] )
-# This prints "Thursday"
+
+# This prints "Thursday"
+
 
 print( week[-1] )
-# This prints "Friday"
 
-print( len(week) )
-# This prints 5
+# This prints "Friday"
 
-week.append("Saturday")
-week.append("Sunday")
+
+print( len(week) )
+
+# This prints 5
+
+
+week.append("Saturday")
+
+week.append("Sunday")
 
 print( "The list now contains {} items.".format( len(week)))
 # This prints the following sentence:
