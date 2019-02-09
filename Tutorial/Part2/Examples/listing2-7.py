@@ -1,6 +1,8 @@
+line = "If music be the food of love, play on"
+words = line.split()
 
-## For this code to work, a text files named “Prufrock.txt”
-## needs to be in the same folder as the Python code.
-text = open( "Prufrock.txt" , encoding = 'utf-8' )
-for line in text:
-    print(line)
+print( words[0] )
+## "If"
+
+print( words[7] )
+## "play"
