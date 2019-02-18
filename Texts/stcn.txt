@@ -1,0 +1,554 @@
+RECORD
+B_ID: 36331570
+TITLE: Constitvtiones de fvndamentis legis. / By Moses F. Maiiemon. ; Translated into Latin by W.H. Vorstius
+AUTHOR: 68648332
+LANGUAGE: heb
+YEAR: 1638
+FORMAT: quarto
+PRINTER: 75539179
+P_ID: 68648332
+NAME_LAST: Ibn Maymn
+NAME_FIRST: Ms b. Ubayd
+BIRTH: 1135
+DEATH: 1204
+RECORD
+B_ID: 36331694
+TITLE: Liber de capite fidei. / By Isaac Abravanel. ; Translated into Latin by W.H. Vorstius
+AUTHOR: 73280879
+LANGUAGE: lat
+YEAR: 1638
+FORMAT: quarto
+PRINTER: 75539179
+P_ID: 73280879
+NAME_LAST: Abravanel (1437-1508) (1437-1508)
+BIRTH: 1437
+DEATH: 1508
+RECORD
+B_ID: 37313517
+TITLE: De dIs Syris syntagmata II. / By Joannes Seldenus. ; Edited by D. Heinsius
+AUTHOR: 68421583
+LANGUAGE: lat
+YEAR: 1629
+PRINTER: 75545322
+P_ID: 68421583
+NAME_LAST: Selden
+NAME_FIRST: John
+BIRTH: 1584
+DEATH: 1654
+PR_ID: 75545322
+PRINTER_NAME: Elzevier, Abraham (I)
+RECORD
+B_ID: 37317628
+TITLE: Epistol quatuor Petri secunda Johannis secunda & tertia & Ivd fratris Jacobi una. / 1st edition with Syriac version in Hebrew characters Latin version and annotations by E. Pocock
+LANGUAGE: mul
+YEAR: 1630
+FORMAT: quarto
+PRINTER: 75545322
+PR_ID: 75545322
+PRINTER_NAME: Elzevier, Abraham (I)
+RECORD
+B_ID: 03748639X
+TITLE: Das Buchlein Iehi Or oder Morgenrohte der Weissheit. Von den drey Principiis aller Dinge. / (By Paul Felgenhauer)
+AUTHOR: 72369779
+LANGUAGE: ger
+YEAR: 1640
+FORMAT: folio
+PRINTER: 75550105
+P_ID: 72369779
+NAME_LAST: Felgenhauer
+NAME_FIRST: Paul
+BIRTH: 1593
+DEATH: 1677
+RECORD
+B_ID: 37929909
+TITLE: Le parfait capitaine. Avtrement L'abrege des gverres des commentaires de Cesar. / [By Henri duc de Rohan]
+AUTHOR: 70066647
+LANGUAGE: fre
+YEAR: 1641
+PRINTER: 75545322
+P_ID: 70066647
+NAME_LAST: Rohan
+NAME_FIRST: Henri
+DEATH: 1638
+PR_ID: 75545322
+PRINTER_NAME: Elzevier, Abraham (I)
+RECORD
+B_ID: 37930451
+TITLE: De l'interest des princes et estats de la chrestiente. / [By Henri duc de Rohan]
+AUTHOR: 70066647
+LANGUAGE: fre
+YEAR: 1641
+FORMAT: folio
+PRINTER: 75545322
+P_ID: 70066647
+NAME_LAST: Rohan
+NAME_FIRST: Henri
+DEATH: 1638
+PR_ID: 75545322
+PRINTER_NAME: Elzevier, Abraham (I)
+RECORD
+B_ID: 38091976
+TITLE: Vit human proscenium: in quo sub persona Gusmani Alfaracii virtutes & vitia [...] reprsentantur. / [By Mateo Aleman]. ; Edited by C. Ens
+AUTHOR: 68707428
+LANGUAGE: lat
+YEAR: 1652
+PRINTER: 75539179
+P_ID: 68707428
+NAME_LAST: Alemn
+NAME_FIRST: Mateo
+BIRTH: 1547
+DEATH: 1613
+RECORD
+B_ID: 03809326X
+TITLE: Remarques envoyees a m`SUP`r. Stockmans pour servir de reponse a la seconde partie de son Traite du droit de devolution. / [By Guy Joly]
+AUTHOR: 73524603
+LANGUAGE: fre
+YEAR: 1668
+FORMAT: folio
+PRINTER: 75539179
+P_ID: 73524603
+NAME_LAST: Joly
+NAME_FIRST: Guy
+DEATH: 1678
+RECORD
+B_ID: 38094274
+TITLE: Remarques pour servir de reponse a deux ecrits imprimez a Bruxelles contre les droits de la reine sur le Brabant. / [By Guy Joly]
+AUTHOR: 73524603
+LANGUAGE: fre
+YEAR: 1667
+FORMAT: folio
+PRINTER: 75539179
+P_ID: 73524603
+NAME_LAST: Joly
+NAME_FIRST: Guy
+DEATH: 1678
+RECORD
+B_ID: 38095041
+TITLE: Esclaircissement de quelques difficultes touchant l'administration du cardinal Mazarin. : 2 parts. / By De Silhon
+AUTHOR: 70933197
+LANGUAGE: fre
+YEAR: 1651
+FORMAT: folio
+PRINTER: 75550105
+P_ID: 70933197
+NAME_LAST: Silhon
+NAME_FIRST: Jean de
+BIRTH: 1596
+DEATH: 1667
+RECORD
+B_ID: 38098520
+TITLE: De l'imitation de Jesus-Christ. / [By Thomas a Kempis]. ; Tr. De Beuil [pseudonym of I.L. Le Maistre de Sacy]
+AUTHOR: 68570694
+LANGUAGE: fre
+YEAR: 1667
+FORMAT: folio
+PRINTER: 75565277
+P_ID: 68570694
+NAME_LAST: Thomas Kempis (1379/80-1471)
+BIRTH: 1379
+DEATH: 1471
+RECORD
+B_ID: 44071981
+TITLE: Theologia elenctica nova: sive Systema elencticum. / By Henricus Alting
+AUTHOR: 69861757
+LANGUAGE: lat
+YEAR: 1654
+PRINTER: 75550105
+P_ID: 69861757
+NAME_LAST: Alting
+NAME_FIRST: Henricus
+BIRTH: 1583
+DEATH: 1644
+RECORD
+B_ID: 44072287
+TITLE: Trivmphvs crvcis sive Fides catholica de satisfactione Domini nostri Iesu Christi. / By Andreas Essenius
+AUTHOR: 70484066
+LANGUAGE: lat
+YEAR: 1649
+PRINTER: 75545454
+P_ID: 70484066
+NAME_LAST: Essenius
+NAME_FIRST: Andreas
+BIRTH: 1618
+DEATH: 1677
+PR_ID: 75545454
+PRINTER_NAME: Elzevier, Lowijs (III)
+RECORD
+B_ID: 44072775
+TITLE: De poenis et satisfactionibvs hvmanis libri VII. / By Joannes Dallaeus
+AUTHOR: 06944983X
+LANGUAGE: lat
+YEAR: 1649
+PRINTER: 75539179
+P_ID: 06944983X
+NAME_LAST: Daill
+NAME_FIRST: Jean
+DEATH: 1670
+RECORD
+B_ID: 44100981
+TITLE: La vita del dvca Valentino. / By Tomaso Tomasi
+AUTHOR: 74270532
+LANGUAGE: ita
+YEAR: 1655
+PRINTER: 75539179
+P_ID: 74270532
+NAME_LAST: Tomasi
+NAME_FIRST: Tomaso Placido
+BIRTH: 1608
+DEATH: 1658
+RECORD
+B_ID: 44101619
+TITLE: Factum pour les religieuses de S. Catherine les-Provins contre les peres cordeliers. / [By Alexandre Louis Varet]
+AUTHOR: 71888144
+LANGUAGE: fre
+YEAR: 1679
+FORMAT: folio
+PRINTER: 75565277
+P_ID: 71888144
+NAME_LAST: Varet
+NAME_FIRST: Alexandre Louis
+BIRTH: 1632
+DEATH: 1676
+RECORD
+B_ID: 44149328
+TITLE: Rivetiani apologetici pro schismate contra votvm pacis facti discussio. / [By Hugo de Groot]
+AUTHOR: 68407017
+LANGUAGE: lat
+YEAR: 1645
+FORMAT: octavo
+PRINTER: 75539179
+P_ID: 68407017
+NAME_LAST: Groot
+NAME_FIRST: Hugo de
+BIRTH: 1583
+DEATH: 1645
+RECORD
+B_ID: 54043123
+TITLE: Histoire de Henry duc de Rohan pair de France. / [By Antoine Fauvelet du Toc]
+AUTHOR: 74364006
+LANGUAGE: fre
+YEAR: 1667
+FORMAT: folio
+PRINTER: 75565277
+RECORD
+B_ID: 54054974
+TITLE: Die afrikanische Sofonisbe. / [By Francois Du Soucy Sieur de Gerzan]
+AUTHOR: 74364294
+LANGUAGE: ger
+YEAR: 1647
+FORMAT: folio
+PRINTER: 75545454
+P_ID: 74364294
+NAME_LAST: Du Soucy
+NAME_FIRST: Franceois
+PR_ID: 75545454
+PRINTER_NAME: Elzevier, Lowijs (III)
+RECORD
+B_ID: 54088232
+TITLE: Placaet der edele ende groot-mogende heeren Staten van Hollandt ende West-Vrieslandt. Teghen de duellen [...] van de stvdenten in d'universiteyt tot Leyden
+LANGUAGE: dut
+YEAR: 1641
+PRINTER: 75545322
+PR_ID: 75545322
+PRINTER_NAME: Elzevier, Abraham (I)
+RECORD
+B_ID: 54338352
+TITLE: Cursus logicus systematicus et agonisticus. / By Gisbertus ab Isendoorn
+AUTHOR: 73556890
+LANGUAGE: lat
+YEAR: 1654
+FORMAT: quarto
+PRINTER: 75550105
+RECORD
+B_ID: 54718937
+TITLE: La politique civile et militaire des Venitiens. / (By De La Haye)
+AUTHOR: 70139229
+LANGUAGE: fre
+YEAR: 1669
+PRINTER: 75539179
+P_ID: 70139229
+NAME_LAST: La Haye
+NAME_FIRST: ... de
+RECORD
+B_ID: 55470599
+TITLE: Journal du voyage du chevalier Chardin en Perse et aux Indes Orientales. : Part 1
+AUTHOR: 70017468
+LANGUAGE: fre
+YEAR: 1686
+PRINTER: 75565277
+P_ID: 70017468
+NAME_LAST: Chardin
+NAME_FIRST: John
+BIRTH: 1643
+DEATH: 1713
+RECORD
+B_ID: 55470920
+TITLE: Le testament du defunct cardinal Jul. Mazarini
+AUTHOR: 06992645X
+LANGUAGE: fre
+YEAR: 1663
+FORMAT: folio
+PRINTER: 75565277
+P_ID: 06992645X
+NAME_LAST: Mazarin
+NAME_FIRST: Jules
+BIRTH: 1602
+DEATH: 1661
+RECORD
+B_ID: 55599125
+TITLE: Agesilas tragedie. / By P. Corneille
+AUTHOR: 68453361
+LANGUAGE: fre
+YEAR: 1666
+FORMAT: folio
+PRINTER: 75565277
+P_ID: 68453361
+NAME_LAST: Corneille
+NAME_FIRST: Pierre
+BIRTH: 1606
+DEATH: 1684
+RECORD
+B_ID: 55599230
+TITLE: Antiochus tragi-comedie. / By T. Corneille
+AUTHOR: 07027309X
+LANGUAGE: fre
+YEAR: 1666
+FORMAT: folio
+PRINTER: 75565277
+P_ID: 07027309X
+NAME_LAST: Corneille
+NAME_FIRST: Thomas
+BIRTH: 1625
+DEATH: 1709
+RECORD
+B_ID: 55599419
+TITLE: Othon tragedie. / By P. Corneille
+AUTHOR: 68453361
+LANGUAGE: fre
+YEAR: 1665
+FORMAT: folio
+PRINTER: 75565277
+P_ID: 68453361
+NAME_LAST: Corneille
+NAME_FIRST: Pierre
+BIRTH: 1606
+DEATH: 1684
+RECORD
+B_ID: 55600050
+TITLE: La logique des amans ou L'amour logicien. / By De Caillieres le fils
+AUTHOR: 74489097
+LANGUAGE: fre
+YEAR: 1669
+FORMAT: folio
+PRINTER: 75565277
+RECORD
+B_ID: 55600395
+TITLE: Le fou raisonnable. Comedie. / [By Raymond Poisson]
+AUTHOR: 70793115
+LANGUAGE: fre
+YEAR: 1664
+FORMAT: folio
+PRINTER: 75545357
+P_ID: 70793115
+NAME_LAST: Poisson
+NAME_FIRST: Raymond
+DEATH: 1690
+PR_ID: 75545357
+PRINTER_NAME: Elzevier, Daniel
+RECORD
+B_ID: 05560191X
+TITLE: De idololatria liber. / By Moses Maimonides. ; With Latin tr. and ann. by D. Vossius
+AUTHOR: 68648332
+LANGUAGE: lat
+YEAR: 1668
+PRINTER: 75539179
+P_ID: 68648332
+NAME_LAST: Ibn Maymn
+NAME_FIRST: Ms b. Ubayd
+BIRTH: 1135
+DEATH: 1204
+RECORD
+B_ID: 55602088
+TITLE: Histori von dem Tartarischen Kriege. / By Martinus Martinius
+AUTHOR: 70077940
+LANGUAGE: ger
+YEAR: 1654
+PRINTER: 75539179
+P_ID: 70077940
+NAME_LAST: Martini
+NAME_FIRST: Martino
+BIRTH: 1614
+DEATH: 1661
+RECORD
+B_ID: 55690637
+TITLE: Selbst-streit das ist Kraftige bewegung des Fleisches und Geistes poetischer weise erklaret in der person [...] Iosephs. / By Jacobus Kats. ; Translated into German by J. Burger
+AUTHOR: 69112894
+LANGUAGE: ger
+YEAR: 1648
+PRINTER: 75545454
+P_ID: 69112894
+NAME_LAST: Cats
+NAME_FIRST: Jacob
+BIRTH: 1577
+DEATH: 1660
+PR_ID: 75545454
+PRINTER_NAME: Elzevier, Lowijs (III)
+RECORD
+B_ID: 55874894
+TITLE: Trouwe vermaninge aende christelicke gemeynten van Brabant Vlanderen Henegou ende andere omliggende landen. / By Philips van Marnix heer van S. Aldegonde
+AUTHOR: 68871414
+LANGUAGE: dut
+YEAR: 1589
+PRINTER: 75555204
+P_ID: 68871414
+NAME_LAST: Marnix
+NAME_FIRST: Philips van
+DEATH: 1598
+RECORD
+B_ID: 55894070
+TITLE: Thesavrvs nvmismatvm Romanorvm avreorvm argenteorvm aereorvm ad familias eivs vrbis spectantivm vsqve ad obitvm Avgvsti. / By Abraham Gorlaeus
+AUTHOR: 70053421
+LANGUAGE: lat
+YEAR: 1609
+FORMAT: folio
+PRINTER: 75555204
+P_ID: 70053421
+NAME_LAST: Goorle
+NAME_FIRST: Abraham van
+BIRTH: 1549
+DEATH: 1608
+RECORD
+B_ID: 56757220
+TITLE: Appendix genealogica illustrando operi chronologico adjecta. / By Ubbo Emmius
+AUTHOR: 68266278
+LANGUAGE: lat
+YEAR: 1620
+FORMAT: folio
+PRINTER: 75545349
+P_ID: 68266278
+NAME_LAST: Emmius
+NAME_FIRST: Ubbo
+BIRTH: 1547
+DEATH: 1625
+PR_ID: 75545349
+PRINTER_NAME: Elzevier, Bonaventura
+RECORD
+B_ID: 56796501
+TITLE: Het huys van de heeren Louys en Hendrick Trip. / Designed by Justus Vingboons
+AUTHOR: 69756694
+LANGUAGE: dut
+YEAR: 1664
+FORMAT: folio
+PRINTER: 75539179
+RECORD
+B_ID: 56821794
+TITLE: Gedwongen vrient. / By Lope de Vega Carpio. ; Translated into Dutch by I. Vos
+AUTHOR: 69030472
+LANGUAGE: dut
+YEAR: 1661
+FORMAT: quarto
+PRINTER: 75552302
+P_ID: 69030472
+NAME_LAST: Vega
+NAME_FIRST: Lope de
+BIRTH: 1562
+DEATH: 1635
+RECORD
+B_ID: 05792533X
+TITLE: Dispvtatio theologica de primo Adami peccato. / By Gerardus Reusius. ; Praes.: S. Episcopius
+AUTHOR: 74714651
+LANGUAGE: lat
+YEAR: 1617
+FORMAT: quarto
+PRINTER: 75555204
+RECORD
+B_ID: 05792547X
+TITLE: Dispvtatio theologica de providentia Dei. / By Simon Hugius. ; Praes.: S. Episcopius
+AUTHOR: 74714643
+LANGUAGE: lat
+YEAR: 1613
+FORMAT: quarto
+PRINTER: 75555204
+RECORD
+B_ID: 57925682
+TITLE: Dispvtatio theologica de autoritate S. Scriptur. / By Casparus Selcart. ; Praes.: S. Episcopius
+AUTHOR: 74714589
+LANGUAGE: lat
+YEAR: 1612
+FORMAT: quarto
+PRINTER: 75555204
+RECORD
+B_ID: 57926204
+TITLE: Theses theologic de S. Scriptvr perspicvitate. / By Abrahamus Jacobi f. ; Praes.: S. Episcopius
+AUTHOR: 74750739
+LANGUAGE: lat
+YEAR: 1615
+FORMAT: quarto
+PRINTER: 75555204
+RECORD
+B_ID: 57926336
+TITLE: Dispvtatio theologica prima de natvra Dei. / By Christophorus Langeraec. ; Praes.: S. Episcopius
+AUTHOR: 74714619
+LANGUAGE: lat
+YEAR: 1615
+FORMAT: quarto
+PRINTER: 75555204
+RECORD
+B_ID: 57926417
+TITLE: Dispvtatio theologica secvnda de scientia Dei. / By Adrianus Romanus. ; Praes.: S. Episcopius
+AUTHOR: 70173990
+LANGUAGE: lat
+YEAR: 1615
+FORMAT: quarto
+PRINTER: 75555204
+RECORD
+B_ID: 57927170
+TITLE: Dispvtatio theologica tertia. De volvntate Dei. / By Hilgerus Bruel. ; Praes.: S. Episcopius
+AUTHOR: 74714627
+LANGUAGE: lat
+YEAR: 1616
+FORMAT: quarto
+PRINTER: 75555204
+RECORD
+B_ID: 57927359
+TITLE: Theses theologic de peccatis actvalibvs. / By Walewinus Johannes Ryswiic. ; Praes.: S. Episcopius
+AUTHOR: 74714678
+LANGUAGE: lat
+YEAR: 1618
+FORMAT: quarto
+PRINTER: 75555204
+RECORD
+B_ID: 57927464
+TITLE: Dispvtatio theologica de idololatria. / By Damasus Petri a Kouwenhove. ; Praes.: S. Episcopius
+AUTHOR: 74714694
+LANGUAGE: lat
+YEAR: 1617
+FORMAT: quarto
+PRINTER: 75555204
+RECORD
+B_ID: 05792760X
+TITLE: Dispvtatio theologica de convenientia & discrimine Veteris & Novi Testamenti. / By Petrus Geisteranus. ; Praes.: S. Episcopius
+AUTHOR: 74714724
+LANGUAGE: lat
+YEAR: 1616
+FORMAT: quarto
+PRINTER: 75555204
+RECORD
+B_ID: 05792774X
+TITLE: Theses theologic de poenitentia. / By Johannes a Ravensvay. ; Praes.: S. Episcopius
+AUTHOR: 74714708
+LANGUAGE: lat
+YEAR: 1616
+FORMAT: quarto
+PRINTER: 75555204
+RECORD
+B_ID: 57927863
+TITLE: Theses theologic de bonis operibvs. / By Nicolaus Loedingius. ; Praes.: S. Episcopius
+AUTHOR: 74714716
+LANGUAGE: lat
+YEAR: 1614
+FORMAT: quarto
+PRINTER: 75555204
+P_ID: 74714716
+NAME_LAST: Loedingius
+NAME_FIRST: Nicolaus

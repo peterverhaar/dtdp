@@ -1,0 +1,20 @@
+Galey, A., and S. Ruecker. "How a Prototype Argues." Literary and Linguistic Computing 25.4 (2010): 405–424.
+Bauer, Jean. "Who You Calling Untheoretical?" Journal of Digital Humanities 1.1 (2011).
+Eyers, Tom. "The Perils of the ‘Digital Humanities’: New Positivisms and the Fate of Literary Theory." Postmodern Culture 23.2 (2013).
+Anderson, Chris. "The End of Theory: The Data Deluge Makes the Scientific Method Obsolete." Wired Magazine 16.07 (2008).
+Sinclair, Stéfan, Stan Ruecker, and Milena Radzikowska. "Information Visualization for Humanities Scholars." Literary Studies in the Digital Age. Modern Language Association of America, 2013.
+Bertschi, Stefan et al. "What Is Knowledge Visualization? Perspectives on an Emerging Discipline." Proceedings of the International Conference on Information Visualisation. N.p., 2011. 329–336.
+Borkin, Michelle A. et al. "What Makes a Visualization Memorable." IEEE Transactions on Visualization and Computer Graphics 19.12 (2013).
+Drucker, Johanna. "Humanities Approaches to Graphical Display." Digital Humanities Quarterly 005.1 (2011).
+Ramsay, Stephen. "In Praise of Pattern." TEXT Technology 14.2 (2005).
+van Cranenburgh, Andreas, and Rens Bod. "A Data-Oriented Model of Literary Language." (2017).
+Rybicki, J., and M. Heydel. "The Stylistics and Stylometry of Collaborative Translation: Woolf’s Night and Day in Polish." Literary and Linguistic Computing 28.4 (2013): 708–717.
+Jockers, M. L. "Testing Authorship in the Personal Writings of Joseph Smith Using NSC Classification." Literary and Linguistic Computing 28.3 (2012): 371–381.
+Suzuki, T. et al. "Co-Occurrence-Based Indicators for Authorship Analysis." Literary and Linguistic Computing 27.2 (2012): 197–214.
+Pearl, L., and M. Steyvers. "Detecting Authorship Deception: A Supervised Machine Learning Approach Using Author Writeprints." Literary and Linguistic Computing 27.2 (2012): 183–196.
+Wang, Q., and D. Li. "Looking for Translator’s Fingerprints: A Corpus-Based Study on Chinese Translations of Ulysses." Literary and Linguistic Computing 27.1 (2011): 81–93.
+Rybicki, J., and M. Eder. "Deeper Delta across Genres and Languages: Do We Really Need the Most Frequent Words?" Literary and Linguistic Computing 26.3 (2011): 315–321.
+Forstall, C. W., S. L. Jacobson, and W. J. Scheirer. "Evidence of Intertextuality: Investigating Paul the Deacon’s Angustae Vitae." Literary and Linguistic Computing 26.3 (2011): 285–296.
+Li, D., C. Zhang, and K. Liu. "Translation Style and Ideology: A Corpus-Assisted Analysis of Two English Translations of Hongloumeng." Literary and Linguistic Computing 26.2 (2011): 153–166.
+Wiersma, W., J. Nerbonne, and T. Lauttamus. "Automatically Extracting Typical Syntactic Differences from Corpora." Literary and Linguistic Computing 26.1 (2010): 107–124.
+Wilson, A. "The Regressive Imagery Dictionary: A Test of Its Concurrent Validity in English, German, Latin, and Portuguese." Literary and Linguistic Computing 26.1 (2010): 125–135.
