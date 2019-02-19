@@ -1,7 +1,7 @@
 
 freq = dict()
 text = open("ARoomWithAView.txt" , encoding = 'utf-8' )
-out = opn( "mostFrequentWords.txt" , 'w' )
+out = open( "mostFrequentWords.txt" , 'w' )
 
 for line in text:
     line = line.lower()
@@ -10,10 +10,10 @@ for line in text:
         w = w.strip()
         freq[w] = freq.get( w ,0 ) + 1
 
-sorted = reversed( sorted( freq , key=lambda x: freq[x]) )
+sortedList = reversed( sorted( freq , key=lambda x: freq[x]) )
 
 count = 0
-for w in sorted:
+for w in sortedList:
     out.write( str(count) + ': ' +  w + ' => ' + str( freq[w] ) + '\n' )
     if count == 50:
         break
