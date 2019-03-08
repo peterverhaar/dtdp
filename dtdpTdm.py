@@ -258,9 +258,16 @@ def countOccurrences( regex , file ):
     return count
 
 
-def numberOfTypes( cap ):
+def numberOfTypes( file ):
+
+    global lines
+    global currentFile
+
+    if file != currentFile:
+        readFile(file)
+
     nrTypes = 0
-    freq = calculateWordFrequencies( cap )
+    freq = calculateWordFrequencies( file )
     nrTypes =  len(freq)
     return ( nrTypes )
 
@@ -283,6 +290,13 @@ def typeTokenRatioCurve( file , step ):
     return ttr
 
 def numberOfTokens(  file ):
+
+    global lines
+    global currentFile
+
+    if file != currentFile:
+        readFile(file)
+
     nrTokens = 0
     freq = calculateWordFrequencies(  file )
     for w in freq:
