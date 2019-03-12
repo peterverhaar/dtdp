@@ -163,7 +163,7 @@ def collocation( file , regex , distance ):
 
 
 def numberOfSentences(file):
-    fullText = open(file)
+    fullText = open( file , encoding = 'utf-8' )
     s = sent_tokenize(fullText.read())
     return len(s)
 
