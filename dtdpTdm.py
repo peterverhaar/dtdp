@@ -13,12 +13,16 @@ from os.path import isfile, join , isdir
 import string
 
 lines = list()
-metadata = dict()
+taggedLines = list()
 currentFile = ''
 
 freqText = dict()
 
 sentiments = dict()
+
+def initalise():
+    lines.clear()
+    taggedLines.clear()
 
 
 def readFile( file ):
@@ -26,10 +30,9 @@ def readFile( file ):
     global lines
     global currentFile
 
-
     currentFile = file
 
-    lines = []
+    initalise()
 
     if re.search( r'\.txt$' , file ):
         try:
@@ -159,12 +162,9 @@ def collocation( file , regex , distance ):
     return sortedFreq
 
 
-
-
-def numberOfSentences():
-    #print( self.fullText )
-    global fullText
-    s = sent_tokenize(fullText)
+def numberOfSentences(file):
+    fullText = open(file)
+    s = sent_tokenize(fullText.read())
     return len(s)
 
 
@@ -183,12 +183,37 @@ def tokenise( text ):
     return tokens
 
 
+def numberOfSyllables(file):
+
+    global lines
+    global currentFile
+
+    if file != currentFile:
+        readFile(file)
+
+    nrSyllables = 0
+    freq = calculateWordFrequencies( file )
+    for w in freq:
+        nrSyllables += countSyllables(w) * freq[w]
+    return ( nrSyllables )
+
+def countSyllables( word ):
+    pattern = "e?[aiouy]+e*|e(?!d$|ly).|[td]ed|le\$|ble$"
+    syllables = re.findall( pattern , word )
+    return len(syllables)
+
+def fleschKincaid( file ):
+
+    global lines
+    global currentFile
+
+    if file != currentFile:
+        readFile(file)
 
 
-def fleschKincaid():
-    totalWords = numberOfTokens()
-    totalSentences = numberOfSentences()
-    totalSyllables = numberOfSyllables()
+    totalWords = numberOfTokens(file)
+    totalSentences = numberOfSentences(file)
+    totalSyllables = numberOfSyllables(file)
 
     fk = 0.39 * (  totalWords / totalSentences )
     fk = fk + 11.8 * ( totalSyllables / totalWords )
@@ -376,13 +401,71 @@ def tdIdf( corpus , file ):
     return freqIdf
 
 
+def posTagger( file ):
 
-def countPosTag( posRe ):
-    global posTags
+    global lines
+    global taggedLines
 
-    countTags = 0
+    global currentFile
+    if file != currentFile:
+        readFile(file)
 
-    for tag in posTags:
-        if re.search( posRe , tag ):
-            countTags += posTags[tag]
-    return countTags
+    print("Adding POS tags for {} ...".format(file)  )
+
+    for line in lines:
+        taggedLine = ''
+        words = word_tokenize(line)
+        pos = nltk.pos_tag(words)
+
+        for p in pos:
+            taggedLine += p[1] + ' '
+        taggedLines.append( taggedLine )
+
+
+def countPosTag( file , posRe ):
+    global taggedLines
+    global lines
+
+    countTag = 0
+
+    global currentFile
+    if file != currentFile:
+        readFile(file)
+        taggedLines.clear()
+
+    if len(taggedLines) == 0:
+        posTagger( file )
+
+    for line in taggedLines:
+        hits = re.findall( posRe , line )
+        #print(line)
+        #for h in hits:
+            #print(h)
+        countTag += len(hits)
+
+    return countTag
+
+def countOccurrencesLexicon( file , lexiconFile ):
+
+    global lines
+
+    global currentFile
+    if file != currentFile:
+        readFile(file)
+
+    lexicon = open( lexiconFile , encoding = 'utf-8')
+    listOfWords = []
+
+    countOccurrences = 0
+    for line in lexicon:
+        line = line.strip()
+        listOfWords.append(line.lower() )
+
+
+    for line in lines:
+        words = tokenise( line )
+        for w in words:
+            if w.lower() in listOfWords:
+                countOccurrences += 1
+
+    return countOccurrences
