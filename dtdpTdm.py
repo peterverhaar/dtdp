@@ -389,7 +389,7 @@ def tdIdf( corpus , file ):
 
     for w in freqText:
         print(freqText[w][1])
-        allWords.appen( freqText[w][1] )
+        allWords.append( freqText[w][1] )
 
     for w in allWords:
         if( file , w ) in freqText:
