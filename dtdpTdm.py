@@ -198,7 +198,7 @@ def numberOfSyllables(file):
     return ( nrSyllables )
 
 def countSyllables( word ):
-    pattern = "e?[aiouy]+e*|e(?!d$|ly).|[td]ed|le\$|ble$"
+    pattern = "e?[aiouy]+e*|e(?!d$|ly).|[td]ed|le\$|ble$|a$"
     syllables = re.findall( pattern , word )
     return len(syllables)
 
@@ -453,19 +453,94 @@ def countOccurrencesLexicon( file , lexiconFile ):
     if file != currentFile:
         readFile(file)
 
+    countOccurrences = 0
     lexicon = open( lexiconFile , encoding = 'utf-8')
     listOfWords = []
 
-    countOccurrences = 0
     for line in lexicon:
         line = line.strip()
         listOfWords.append(line.lower() )
 
-
-    for line in lines:
-        words = tokenise( line )
-        for w in words:
-            if w.lower() in listOfWords:
-                countOccurrences += 1
+    freq = calculateWordFrequencies( file )
+    for w in freq:
+        if w in listOfWords:
+            countOccurrences += freq[w]
 
     return countOccurrences
+
+freqText = dict()
+
+def tdIdf( corpus , focusText ):
+
+    ## freqText is a dictionary with frequencies of all Words in the corpus
+    global freqText
+
+    freq = dict()
+
+    #list to kep track of all the texts in the corpus
+    txt = []
+
+    ## Formula is as follows: tf-idf= tf * log⁡(⁡ N /df ),
+    # tf being the number of times a term appears in a document,
+    # N being the total number of documents
+    # df being the number of documents in which the term appears.
+
+    if len( freqText ) == 0:
+
+        fnames = os.listdir( corpus )
+        for i in fnames:
+            if re.search( '[.]txt$' , i):
+                txt.append( i )
+
+        ## N is total number of texts
+        N = len(txt)
+
+        if focusText not in txt:
+            print("The file you mentioned is not in the corpus!")
+
+        for t in txt:
+            textWords = []
+            text = open( join( corpus , t ) , encoding = 'utf-8' )
+
+            for line in text:
+                words = tokenise( line )
+                for w in words:
+                    freq[w] = freq.get( w , 0 ) + 1
+                    freqText[ (t , w ) ] = freq.get( (t , w ) , 0 ) + 1
+
+
+        idf = dict()
+        ## df is number of texts in which the term appears
+
+        for word in freq:
+            df = 0
+
+            for text in txt:
+                if ( text , word ) in freqText:
+                    df += 1
+
+            idfW = math.log( N / df )
+            idf[ word ] = idfW
+
+            for text in txt:
+                if ( text , word ) in freqText:
+                    freqText[ ( text , word ) ] = freqText[ ( text , word ) ] * idf[ word ]
+
+        print( 'Done: Calculations made.' )
+
+
+    freqIdf = dict()
+    allWords = []
+
+
+    for w in freqText:
+        allWords.append(w[1])
+
+    for w in allWords:
+
+        if ( focusText , w ) in freqText:
+            if freqText[ ( focusText , w ) ] > 0 and not( re.search( '[-]' , w ) ):
+                freqIdf[w] = freqText[ ( focusText , w ) ]
+
+
+    return freqIdf
